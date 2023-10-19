@@ -1,0 +1,120 @@
+{
+	"name": "bs5",
+	"displayName": "Bootstrap5",
+	"description": "Bootstrap5 snippets",
+	"version": "0.7.0",
+	"author": "Ajanuw",
+	"icon": "logo/bootstrap-logo.png",
+	"publisher": "ajanuw",
+	"homepage": "https://github.com/januwA/Bootstrap5-snippets",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/januwA/Bootstrap5-snippets.git"
+	},
+	"keywords": [
+		"Bootstrap5 snippets",
+		"Bootstrap",
+		"Bootstrap5",
+		"snippets",
+		"Ajanuw"
+	],
+	"engines": {
+		"vscode": "^1.65.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"activationEvents": [],
+	"main": "./out/extension.js",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "scss",
+				"path": "./snippets/bs5/scss.json"
+			}
+		]
+	},
+	"scripts": {
+		"publish": "vsce publish",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.65.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "14.x",
+		"@typescript-eslint/eslint-plugin": "^5.12.1",
+		"@typescript-eslint/parser": "^5.12.1",
+		"eslint": "^8.9.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.2.1",
+		"typescript": "^4.5.5",
+		"ts-loader": "^9.2.6",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2",
+		"@vscode/test-electron": "^2.1.2"
+	},
+	"__metadata": {
+		"id": "e241e43e-bcff-451d-b667-ae3828ed6245",
+		"publisherId": "2e9d0333-4ab4-4844-9a63-afb53a7664a7",
+		"publisherDisplayName": "ajanuw",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1685036708648,
+		"preRelease": false
+	}
+}

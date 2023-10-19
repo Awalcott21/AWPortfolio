@@ -1,0 +1,537 @@
+{
+  "row": {
+    "prefix": ".row",
+    "body": "row",
+    "description": ""
+  },
+  "row cols": {
+    "prefix": ".row-cols-<breakpoint>-",
+    "body": "row-cols-<breakpoint>-${0:a}",
+    "description": "auto|1~6"
+  },
+  "col base": {
+    "prefix": ".col",
+    "body": "col",
+    "description": ""
+  },
+  "col": {
+    "prefix": ".col-<breakpoint>-",
+    "body": "col-<breakpoint>-${0:1}",
+    "description": "1~11|auto"
+  },
+  "offset": {
+    "prefix": ".offset-<breakpoint>-",
+    "body": "offset-<breakpoint>-${0:a}",
+    "description": "1~11"
+  },
+  "border": {
+    "prefix": ".border-",
+    "body": "border-${0:top}",
+    "description": "top|top-0|end|end-0|bottom|bottom-0|start|start-0|0~5"
+  },
+  "border color": {
+    "prefix": ".border-",
+    "body": "border-${0:top}",
+    "description": "<btnColor>|white"
+  },
+  "rounded": {
+    "prefix": ".rounded",
+    "body": "rounded",
+    "description": ""
+  },
+  "Radius": {
+    "prefix": ".rounded-",
+    "body": "rounded-${0:circle}",
+    "description": "0~3|circle|pill|top|end|bottom|start"
+  },
+  "Text": {
+    "prefix": ".text-",
+    "body": "text-${0:primary}",
+    "description": "wrap|nowrap|break|reset|truncate"
+  },
+  "Text transform": {
+    "prefix": ".text-",
+    "body": "text-${0:lowercase}",
+    "description": "lowercase|uppercase|capitalize"
+  },
+  "Text color": {
+    "prefix": ".text-",
+    "body": "text-${0:primary}",
+    "description": "<color>"
+  },
+  "Text align": {
+    "prefix": ".text-<breakpoint>-",
+    "body": "text-<breakpoint>-${0:start}",
+    "description": "start|center|end"
+  },
+  "Text decoration": {
+    "prefix": ".text-decoration-",
+    "body": "text-decoration-${0:underline}",
+    "description": "underline|line-through|none"
+  },
+  "Background Color": {
+    "prefix": ".bg-",
+    "body": "bg-${0:primary}",
+    "description": "<bg>|gradient"
+  },
+  "Display": {
+    "prefix": ".d-<breakpoint>-",
+    "body": "d-<breakpoint>-${0:flex}",
+    "description": "grid|table|table-row|table-cell|flex|block|inline|inline-block|inline-flex|none"
+  },
+  "Flex": {
+    "prefix": ".flex-<breakpoint>-",
+    "body": "flex-<breakpoint>-${0:row}",
+    "description": "row|column|fill|wrap|nowrap|row-reverse|column-reverse|wrap-reverse|grow-0|grow-1|shrink-0|shrink-1"
+  },
+  "main Axis Alignment": {
+    "prefix": ".justify-content-<breakpoint>-",
+    "body": "justify-content-<breakpoint>-${0:a}",
+    "description": "start|end|center|around|evenly|between"
+  },
+  "cross Axis Alignment": {
+    "prefix": ".align-items-<breakpoint>-",
+    "body": "align-items-<breakpoint>-${0:a}",
+    "description": "start|end|center|baseline|stretch"
+  },
+  "Align content": {
+    "prefix": ".align-content-<breakpoint>-",
+    "body": "align-content-<breakpoint>-${0:a}",
+    "description": "start|end|center|around|stretch"
+  },
+  "Align self": {
+    "prefix": ".align-self-<breakpoint>-",
+    "body": "align-self-<breakpoint>-${0:a}",
+    "description": "start|end|center|baseline|stretch"
+  },
+  "Change the visual order": {
+    "prefix": ".order-<breakpoint>-",
+    "body": "order-<breakpoint>-${0:1}",
+    "description": "0~5|first|last"
+  },
+  "Float": {
+    "prefix": ".float-<breakpoint>-",
+    "body": "float-<breakpoint>-${0:none}",
+    "description": "start|end|none"
+  },
+  "Text selection": {
+    "prefix": ".user-select-",
+    "body": "user-select-${0:none}",
+    "description": "all|auto|none"
+  },
+  "Pointer events": {
+    "prefix": ".pe-<breakpoint>-",
+    "body": "pe-<breakpoint>-${0:none}",
+    "description": "auto|none"
+  },
+  "Overflow": {
+    "prefix": ".overflow-",
+    "body": "overflow-${0:auto}",
+    "description": "auto|hidden|visible|scroll"
+  },
+  "Position": {
+    "prefix": ".position-",
+    "body": "position-${0:a}",
+    "description": "static|relative|absolute|fixed|sticky"
+  },
+  "Arrange elements top": {
+    "prefix": ".top-",
+    "body": "top-${0:0}",
+    "description": "0|50|100"
+  },
+  "Arrange elements bottom": {
+    "prefix": ".bottom-",
+    "body": "bottom-${0:0}",
+    "description": "0|50|100"
+  },
+  "Arrange elements end": {
+    "prefix": ".end-",
+    "body": "end-${0:0}",
+    "description": "0|50|100"
+  },
+  "Arrange elements start": {
+    "prefix": ".start-",
+    "body": "start-${0:0}",
+    "description": "0|50|100"
+  },
+  "Center elements": {
+    "prefix": ".translate-middle",
+    "body": "translate-${0:a}",
+    "description": "middle|middle-x|middle-y"
+  },
+  "box shadow default sizes": {
+    "prefix": ".shadow",
+    "body": "shadow",
+    "description": ""
+  },
+  "box shadow": {
+    "prefix": ".shadow-",
+    "body": "shadow-${0:none}",
+    "description": "none|sm|lg"
+  },
+  "Sizing Width": {
+    "prefix": ".w-",
+    "body": "w-${0:auto}",
+    "description": "25|50|75|100|auto"
+  },
+  "Sizing Height": {
+    "prefix": ".h-",
+    "body": "h-${0:auto}",
+    "description": "25|50|75|100|auto"
+  },
+  "Sizing max width": {
+    "prefix": ".mw-100",
+    "body": "mw-100",
+    "description": "max-width: 100%"
+  },
+  "Sizing max height": {
+    "prefix": ".mh-100",
+    "body": "mh-100",
+    "description": "max-height: 100%"
+  },
+  "Relative to the min viewport": {
+    "prefix": ".min-",
+    "body": "min-${0:w}",
+    "description": "vw-100|vh-100"
+  },
+  "Relative to the viewport": {
+    "prefix": [
+      ".vw-100",
+      ".vh-100"
+    ],
+    "body": "v${0:w}-100",
+    "description": "Width 100vw or Height 100vh"
+  },
+  "Spacing margin": {
+    "prefix": ".m-<breakpoint>-",
+    "body": "m-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing margin top": {
+    "prefix": ".mt-<breakpoint>-",
+    "body": "mt-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing margin bottom": {
+    "prefix": ".mb-<breakpoint>-",
+    "body": "mb-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing margin left": {
+    "prefix": ".ms-<breakpoint>-",
+    "body": "ms-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing margin right": {
+    "prefix": ".me-<breakpoint>-",
+    "body": "me-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing margin left and right": {
+    "prefix": ".mx-<breakpoint>-",
+    "body": "mx-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing margin top and bottom": {
+    "prefix": ".my-<breakpoint>-",
+    "body": "my-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding": {
+    "prefix": ".p-<breakpoint>-",
+    "body": "p-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding top": {
+    "prefix": ".pt-<breakpoint>-",
+    "body": "pt-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding bottom": {
+    "prefix": ".pb-<breakpoint>-",
+    "body": "pb-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding left": {
+    "prefix": ".ps-<breakpoint>-",
+    "body": "ps-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding right": {
+    "prefix": ".pe-<breakpoint>-",
+    "body": "pe-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding left and right": {
+    "prefix": ".px-<breakpoint>-",
+    "body": "px-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Spacing padding top and bottom": {
+    "prefix": ".py-<breakpoint>-",
+    "body": "py-<breakpoint>-${0:0}",
+    "description": "0~5|auto"
+  },
+  "Font size": {
+    "prefix": ".fs-<breakpoint>-",
+    "body": "fs-<breakpoint>-${0:1}",
+    "description": "1~4"
+  },
+  "Monospace": {
+    "prefix": ".font-monospace",
+    "body": "font-monospace",
+    "description": "Change a selection to our monospace font stack with ..font-monospace"
+  },
+  "Font weight": {
+    "prefix": ".fw-",
+    "body": "fw-${0:normal}",
+    "description": "bold|bolder|normal|light|lighter"
+  },
+  "Font style": {
+    "prefix": ".fst-",
+    "body": "fst-${0:italic}",
+    "description": "italic|normal"
+  },
+  "Line height": {
+    "prefix": ".lh-",
+    "body": "lh-${0:base}",
+    "description": "l|sm|base|lg"
+  },
+  "Vertical alignment": {
+    "prefix": ".align-",
+    "body": "align-${0:middle}",
+    "description": "baseline|top|middle|bottom|text-bottom|text-top"
+  },
+  "Visibility visible": {
+    "prefix": ".visible",
+    "body": "visible",
+    "description": "visibility: visible"
+  },
+  "Visibility invisible": {
+    "prefix": ".invisible",
+    "body": "invisible",
+    "description": "visibility: invisible"
+  },
+  "Clearfix": {
+    "prefix": ".clearfix",
+    "body": "clearfix",
+    "description": "Quickly and easily clear floated content within a container"
+  },
+  "Colored links": {
+    "prefix": ".link-",
+    "body": "link-${0:primary}",
+    "description": "<btnColor>"
+  },
+  "Aspect ratios": {
+    "prefix": ".ratio-",
+    "body": "ratio-${0:16x9}",
+    "description": "1x1|4x3|16x9|21x9"
+  },
+  "Position Fixed": {
+    "prefix": ".fixed-",
+    "body": "fixed-${0:top}",
+    "description": "top|bottom"
+  },
+  "Position Sticky": {
+    "prefix": ".sticky-<breakpoint>-top",
+    "body": "sticky-<breakpoint>-top",
+    "description": ""
+  },
+  "Visually hidden": {
+    "prefix": ".visually-",
+    "body": "visually-${0:hidden}",
+    "description": "hidden|hidden-focusable"
+  },
+  "Stretched link": {
+    "prefix": ".stretched-link",
+    "body": "stretched-link",
+    "description": "Make any HTML element or Bootstrap component clickable by “stretching” a nested link via CSS."
+  },
+  "Form": {
+    "prefix": ".form-",
+    "body": "form-${0:a}",
+    "description": "control|label|text|select|check|check-inline|switch|range|check-input|check-label|floating"
+  },
+  "Form input plaintext": {
+    "prefix": ".form-control-",
+    "body": "form-control-${0:a}",
+    "description": "plaintext|color"
+  },
+  "Form input group": {
+    "prefix": ".input-",
+    "body": "input-${0:a}",
+    "description": "group|group-text"
+  },
+  "Display headings": {
+    "prefix": ".display-",
+    "body": "display-${0:1}",
+    "description": "1~6"
+  },
+  "blockquote": {
+    "prefix": ".blockquote",
+    "body": "blockquote"
+  },
+  "blockquote footer": {
+    "prefix": ".blockquote-footer",
+    "body": "blockquote-footer"
+  },
+  "List": {
+    "prefix": ".list-",
+    "body": "list-${0:unstyled}",
+    "description": "inline|unstyled|group"
+  },
+  "List group ": {
+    "prefix": ".list-group-",
+    "body": "list-group-${0:flush}",
+    "description": "flush|item|item-action|horizontal"
+  },
+  "Images": {
+    "prefix": ".img-",
+    "body": "img-${0:fluid}",
+    "description": "fluid|thumbnail"
+  },
+  "Table": {
+    "prefix": ".table-",
+    "body": "table-${0:bordered}",
+    "description": "<btnColor>|bordered|striped|active|hover|borderless"
+  },
+  "Figures": {
+    "prefix": ".figure",
+    "body": "figure",
+    "description": ""
+  },
+  "Figures caption": {
+    "prefix": ".figure-caption",
+    "body": "figure-caption",
+    "description": ""
+  },
+  "Containers": {
+    "prefix": ".container",
+    "body": "container",
+    "description": ""
+  },
+  "Containers fluid": {
+    "prefix": ".container-fluid",
+    "body": "container-fluid",
+    "description": ""
+  },
+  "Gutters x and y": {
+    "prefix": ".g-<breakpoint>-",
+    "body": "g-<breakpoint>-${0:0}",
+    "description": "0~5"
+  },
+  "Gutters x": {
+    "prefix": ".gx-<breakpoint>-",
+    "body": "gx-<breakpoint>-${0:0}",
+    "description": "0~5"
+  },
+  "Gutters y": {
+    "prefix": ".gy-<breakpoint>-",
+    "body": "gy-<breakpoint>-${0:0}",
+    "description": "0~5"
+  },
+  "Button": {
+    "prefix": ".btn-",
+    "body": "btn-${0:primary}",
+    "description": "<btnColor>|link|close|close-white|group|lg|sm|check|toolbar|group-vertical"
+  },
+  "Outline button": {
+    "prefix": ".btn-outline-",
+    "body": "btn-outline-${0:primary}",
+    "description": "<btnColor>"
+  },
+  "Gap": {
+    "prefix": ".gap-<breakpoint>-",
+    "body": "gap-<breakpoint>-${0:2}",
+    "description": "0~5"
+  },
+  "badge": {
+    "prefix": ".badge",
+    "body": "badge",
+    "description": "badge"
+  },
+  "alert": {
+    "prefix": ".alert-",
+    "body": "alert alert-${0:primary}",
+    "description": "<btnColor>|heading|link|dismissible"
+  },
+  "accordion": {
+    "prefix": ".accordion-",
+    "body": "accordion-${0:flush}",
+    "description": "accordion|flush|item|header|body|collapse"
+  },
+  "breadcrumb": {
+    "prefix": ".breadcrumb-",
+    "body": "breadcrumb-${0:item}",
+    "description": "breadcrumb|item"
+  },
+  "card": {
+    "prefix": ".card-",
+    "body": "card-${0:body}",
+    "description": "body|title|subtitle|text|link|img-top"
+  },
+  "collapse": {
+    "prefix": ".collapse",
+    "body": "collapse",
+    "description": "Toggle the visibility of content across your project with a few classes and our JavaScript plugins."
+  },
+  "multi collapse": {
+    "prefix": ".collapse-multi",
+    "body": "collapse multi-collapse"
+  },
+  "Dropdowns": {
+    "prefix": ".dropdown-",
+    "body": "dropdown-${0:menu}",
+    "description": "menu|menu-end|menu-dark|header|item|toggle|toggle-split|divider"
+  },
+  "Modal": {
+    "prefix": ".modal",
+    "body": "modal",
+    "description": "Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content."
+  },
+  "Modal dialog": {
+    "prefix": ".modal-",
+    "body": "modal-${0:a}",
+    "description": "dialog|content|header|title|body|footer"
+  },
+  "Modal dialog scrollable": {
+    "prefix": ".modal-dialog-",
+    "body": "modal-dialog-${0:a}",
+    "description": "scrollable|centered|fullscreen"
+  },
+  "Navs": {
+    "prefix": ".nav",
+    "body": "nav",
+    "description": "Documentation and examples for how to use Bootstrap’s included navigation components."
+  },
+  "Navs pills": {
+    "prefix": ".nav-",
+    "body": "nav-${0:a}",
+    "description": "pills|fill|item|link|justified|tabs"
+  },
+  "Pagination": {
+    "prefix": ".pagination",
+    "body": "pagination",
+    "description": "We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <nav> element to identify it as a navigation section to screen readers and other assistive technologies."
+  },
+  "Pagination item": {
+    "prefix": ".page-",
+    "body": "page-${0:a}",
+    "description": "item|link"
+  },
+  "Progress": {
+    "prefix": ".progress-",
+    "body": "progress-${0:bar}",
+    "description": "bar|bar-striped|bar-animated"
+  },
+  "Spinners": {
+    "prefix": ".spinner-",
+    "body": "spinner-${0:border}",
+    "description": "border|grow"
+  },
+  "Toast": {
+    "prefix": ".toast-",
+    "body": "toast-${0:header}",
+    "description": "header|body|container"
+  }
+}
